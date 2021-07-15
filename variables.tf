@@ -10,6 +10,11 @@ variable "prefix" {
   default = "tfchip"
 }
 
+variable "placeholder" {
+  description = "This prefix will be included in the name of most resources."
+  default = "picsum.photos"
+}
+
 variable "location" {
   description = "The region where the virtual network is created."
   default     = "East US"
